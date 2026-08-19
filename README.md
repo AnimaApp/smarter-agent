@@ -1,7 +1,6 @@
 # smarter-agent
 
-[<img width="600" alt="image" src="https://github.com/user-attachments/assets/de8be28c-2312-4592-83a1-d49134f0c070" />](https://www.ynet.co.il/economy/article/r15r6yqdme)
-
+<img width="667" height="359" alt="image" src="https://github.com/user-attachments/assets/79ae29c7-f0d1-481e-abf5-88b3d14fb78f" />
 
 **A public skill for minimal, self-checking, simulation-driven agent improvement.**
 
