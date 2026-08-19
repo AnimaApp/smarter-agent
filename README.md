@@ -48,9 +48,10 @@ The core question is:
 ### Hermes Agent
 
 ```bash
-hermes skills tap add AnimaApp/smarter-agent
-hermes skills install smarter-agent
+hermes skills install AnimaApp/smarter-agent/skills/smarter-agent --yes
 ```
+
+This full identifier is deterministic and works immediately after publication. It installs only the canonical skill bundle and its linked support files. The shorter `hermes skills install smarter-agent` form depends on source-index discovery and may lag a new repository.
 
 Or copy `skills/smarter-agent/` into your Hermes skills directory.
 

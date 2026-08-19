@@ -81,6 +81,8 @@ Resolved conflicts:
 - Behavioral validation verdict for this mutation: **PASS**.
 - Runtime-enforcement coverage verdict: **PARTIAL** — this skill is opt-in guidance and does not intercept every external mutation writer.
 - Certification scope: this repository state is replay-validated; universal runtime enforcement is not claimed.
-- Publication/install verification: pending at the pre-publication checkpoint and must be completed against the real remote before task completion.
+- Publication verification: public repository created at `https://github.com/AnimaApp/smarter-agent`; initial remote commit `dda48f3515a05b8d73803d658d6a0de2457f2aad`.
+- Isolated Hermes install: `hermes skills install AnimaApp/smarter-agent/skills/smarter-agent --yes` — PASS; security verdict `SAFE`; installed `SKILL.md`, both references, and the validation template; runtime listed the skill as enabled.
+- Discovery note: tap registration succeeded, but the short-name install did not resolve immediately after repository creation. README therefore documents the deterministic full identifier rather than overclaiming fresh-index availability.
 
 A replay pass is evidence, not a guarantee of future model behavior.
