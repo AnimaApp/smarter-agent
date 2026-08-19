@@ -1,5 +1,8 @@
 # smarter-agent
 
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/de8be28c-2312-4592-83a1-d49134f0c070" />
+
+
 **A public skill for minimal, self-checking, simulation-driven agent improvement.**
 
 Agents often “learn” by adding another instruction and checking that the new sentence exists. That can bloat the prompt, duplicate an existing rule, or leave the actual decision unchanged.
